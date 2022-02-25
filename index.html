@@ -5,6 +5,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/fonts.css">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -19,7 +20,18 @@
                 </div>
             </div>
         </header>
-        <main class="page-block"></main>
+        <main>
+            <section class="invite">
+               <div class="page-block">
+                    <p class="invite-text">Get unlimited cloud storage space.</p>
+                    <p class="invite-text invite-text-small">No more worrying.</p>
+                    <form class="invite-form" action="/invite/" method="POST">
+                        <input class="invite-email" type="email" name="email" required placeholder="Enter your email address"/>
+                        <button class="invite-btn" type="submit">Get an invite</button>
+                    </form>
+               </div>
+            </section>
+        </main>
         <footer class="page-block"></footer>
     </body>
 </html>
