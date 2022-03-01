@@ -4,6 +4,7 @@
 }
 
 html {
+    font-family: "Roboto";
     font-size: 16px;
 }
 
@@ -32,12 +33,16 @@ html {
     flex-direction: row;
 }
 
-.logo-facebook{
+.logo-facebook {
     background-image: url("../assets/img/Facebook.svg");
 }
 
 .logo-twitter {
     background-image: url("../assets/img/Twitter.svg");
+}
+
+.logo-email {
+    background-image: url("../assets/img/email.svg");
 }
 
 .header-social-icon {
@@ -59,7 +64,6 @@ html {
 }
 
 .invite-text {
-    font-family: "Roboto";
     font-size: 2.75rem;
     text-align: center;
     color: #8A6D2F;
@@ -103,6 +107,139 @@ html {
     background-color: #A8863D;
     border: none;
     border-radius: 0px 2px 2px 0px;
+}
+
+.infinity {
+    padding-top: 80px;
+    padding-bottom: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.infinity-title {
+    font-size: 2.31rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.56;
+}
+
+.infinity-text {
+    width: 48.55%;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 1.44rem;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.infinity-picture {
+    width: 11.03%;
+    padding-top: 5.7%;
+    margin-top: 56px;
+    background-image: url('../assets/img/infinity.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile {
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.mobile-title {
+    font-size: 2.31rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.56;
+}
+
+.mobile-text {
+    width: 48.55%;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 1.44rem;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.mobile-picture {
+    width: 22.58%;
+    padding-top: 21.81%;
+    margin-top: 38px;
+    background-image: url('../assets/img/phone.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.friends {
+    padding-top: 58px;
+    padding-bottom: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAC960;
+}
+
+.friends-title {
+    font-size: 2.31rem;
+    font-weight: normal;
+    color: #8A6D2F;
+}
+
+.friends-text {
+    width: 30%;
+    margin-top: 31px;
+    font-size: 1.36rem;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    opacity: 40%;
+}
+
+.friends-btn {
+    width: 3.62%;
+    min-width: 28px;
+    margin-top: 22px;
+    box-sizing: border-box;
+    font-size: 1.06rem;
+    line-height: 22px;
+    border: 1px solid #758696;
+    border-radius: 3px;
+}
+
+.footer {
+    padding-bottom: 81px;
+}
+
+.footer-logo {
+    display: block;
+    width: 4.19%;
+    margin-top: 81px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.footer-social {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    width: 22px;
+    height: 18px;
+    margin-left: 18px;
+}
+
+.footer-social-icon:first-child {
+    margin-left: 0;
 }
 
 @media (max-width: 640px) {
